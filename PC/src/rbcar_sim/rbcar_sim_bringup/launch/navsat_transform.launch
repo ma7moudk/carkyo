@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!-- Launch file for navsat_transform_node -->
+<launch>
+    <node pkg="robot_localization" type="navsat_transform_node" name="navsat_transform_node" clear_params="true" respawn="true" output="screen">
+    <param name="frequency"            value="20"/>
+   <!--  <param name="yaw_offset"           value="1.570796327"/> -->
+  <!--  <param name="yaw_offset"           value="0"/> --> 
+    <param name="zero_altitude"        value="true"/>
+    <param name="publish_filtered_gps" value="true"/>
+    <param name="use_odometry_yaw"     value="false"/>
+    <param name="wait_for_datum"       value="true"/>
+    <param name="broadcast_utm_transform" value="true"/>
+    <param name="delay"                value="3"/>
+  <!--  <param name="magnetic_declination_radians" value="0.18369"/> -->
+ <!--   <rosparam param="datum">[30.070300, 31.020075  , 0.0]</rosparam> -->
+    <rosparam param="datum">[30.070250, 31.020120  , 0.0]</rosparam>
+    
+<!--<rosparam param="datum">[30.070306, 31.020139  , -1.570796327]</rosparam>  -->
+
+
+    <remap from="imu/data"          to="/imu_enu_new"/> 
+    <remap from="odometry/filtered" to="/odom"/>
+    <remap from="gps/fix"           to="/fix"/>
+    <remap from="odometry/gps"      to="odometry/gps"/>
+</node>
+
+
+
+
+</launch>
