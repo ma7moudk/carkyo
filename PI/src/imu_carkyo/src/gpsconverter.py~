@@ -1,0 +1,49 @@
+#!/usr/bin/env python
+
+import roslib  
+import rospy
+import serial
+import string
+import math
+import re
+from time import time, sleep
+from nav_msgs.msg import Odometry
+import tf
+
+from sensor_msgs.msg import NavSatFix
+
+x=0.0
+y=0.0
+
+def listener():
+    rospy.loginfo("fh")
+    rospy.init_node('gps_converter', anonymous=True)
+    rospy.Subscriber("/fix1", NavSatFix, callback)
+    rospy.spin()
+
+
+def callback(data):
+        global x	
+        global y	
+	#rospy.loginfo(x)
+	odom = Odometry()
+        x=(data.latitude-30.070915)*10000.0
+        y=(data.longitude-31.02164)*10000.0
+        rospy.loginfo(x)
+        odom.header.stamp = data.header.stamp
+        odom.header.frame_id = "odom"
+        odom.child_frame_id = "base_footprint"
+        odom.pose.pose.position.x = x
+        odom.pose.pose.position.y = y
+        odom.pose.pose.position.z = 0
+        odom_pub = rospy.Publisher("/odom/gps2", Odometry, queue_size=10)
+        odom_pub.publish(odom)
+        print odom
+
+
+
+if __name__ == '__main__':
+	try:
+		listener()
+	except rospy.ROSInterruptException:
+		pass

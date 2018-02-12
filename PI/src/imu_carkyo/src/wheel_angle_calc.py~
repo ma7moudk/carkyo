@@ -1,0 +1,128 @@
+#!/usr/bin/env python
+import roslib 
+import tf
+import rospy
+import serial
+import string
+import math
+import mpmath
+from time import time, sleep
+from nav_msgs.msg import Odometry
+from geometry_msgs.msg import Quaternion
+from sensor_msgs.msg import Imu
+
+ticksPerSpin = 1000*2.9/2.3
+diameter = 0.41 
+yaw = 0.0
+DistancePerCount = (math.pi * diameter) / ticksPerSpin
+theta=0.0
+previousYawDeg=0
+previousTicks=0.0
+radius=0.0
+fBetaRads=0.0
+rospy.init_node("wheel_angle_calc")
+odom_pub = rospy.Publisher('/wheel_odom', Odometry, queue_size=5)
+
+odomMsg = Odometry()
+
+default_port='/dev/ttyACM0'
+port = rospy.get_param('device', default_port)
+ser = serial.Serial(port=port,baudrate=115200, timeout=1)
+
+previosTime =0
+rospy.sleep(5) 
+currentTime=0.0001
+
+
+def odom():
+	global ticksPerSpin,previousYawDeg,radius,fBetaRads,diameter,yaw,theta,DistancePerCount,previosTime,currentTime,previousTicks
+	ticks= 0.0 
+	deltaTicks=0.0	
+	line = ser.readline()
+	#print line
+	words = string.split(line,",")
+	#words = ["1","1000","3","4"]
+	if len(words) > 7:
+	    try:
+			ticks = int(words[1])
+			ticks2 = int(words[3])
+			previosTime =float(words[5])
+			currentTime =float(words[7])
+	    except Exception as e:
+			print e
+        
+	deltaTicks = ticks - previousTicks
+	dt=(currentTime - previosTime)*0.001
+	print "dt is" , dt
+	if dt > 0.001:
+		Vmps= (deltaTicks * DistancePerCount)/dt
+		pArch = deltaTicks * DistancePerCount
+		yawDeg=yaw*180.0/math.pi
+		updateTheta(yawDeg,previousYawDeg)
+		if theta >= 0:
+			a=1
+		elif theta < 0:
+			a=-1
+		if abs(theta) > 0.5:
+			radius=pArch/abs(theta*math.pi/180.0)
+			if radius<1.0:
+				print radius * radius
+			else:
+			
+				print radius * radius
+				underRoot=( (radius * radius) - 0.25 ) / 2.56
+				fBetaRads = a * mpmath.acot(math.sqrt(underRoot))
+		else:
+			fBetaRads = a * theta*math.pi/180.0
+		print "radius   ,    fBetaRads"
+		print  radius       , fBetaRads*180/math.pi
+		#equation is : delta = acot[ sqrt( (R^2-a^2) / (l^2) ) ]
+		#l^2 = 2.56 [1.6^2] and a^2=0.25 [0.5^2]
+
+	
+	##Publish odom(linear vx,vy depending on yaw,wheel angle,speed ##
+		vx = Vmps * math.cos(fBetaRads) * math.cos(yaw)   
+		vy = Vmps * math.cos(fBetaRads) * math.sin(yaw)
+		odomMsg.twist.twist.linear.x = vx
+		odomMsg.twist.twist.linear.y = vy
+		odomMsg.pose.covariance = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+		odomMsg.twist.covariance = [0.1, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1]
+		odomMsg.header.frame_id = 'odom'
+		odomMsg.child_frame_id = 'base_footprint'
+		odomMsg.header.stamp= rospy.Time.now()
+		#odom_pub.publish(odomMsg)
+		#print odomMsg.twist.twist.linear
+		print "       "
+	################
+
+		previousTicks = ticks
+		previosTime = currentTime
+		previousYawDeg = yawDeg
+
+def listener():
+    #rospy.init_node("odom_from_ticks_imu", anonymous=True)
+    rospy.Subscriber("/imu_data", Imu, callback_IMU)
+    rospy.spin()
+    #rate.sleep() 
+
+def callback_IMU(data):
+    global yaw
+    quat = (data.orientation.x,data.orientation.y,data.orientation.z,data.orientation.w)
+    euler = tf.transformations.euler_from_quaternion(quat)
+    yaw = euler[2]
+    odom()
+
+
+def updateTheta(yaw,previousYaw):
+    global theta
+    theta =yaw-previousYaw
+   # print theta
+    if theta > 180:
+        theta-=360
+    elif theta < -180:
+        theta=360+theta
+    #print theta
+
+if __name__ == '__main__':
+    listener()

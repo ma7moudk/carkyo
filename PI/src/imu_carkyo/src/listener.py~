@@ -1,0 +1,58 @@
+#!/usr/bin/env python
+import roslib  
+import rospy
+import serial
+import string
+import math
+import re
+import sys, select, termios, tty
+import thread
+from numpy import clip
+from std_msgs.msg import String
+from ackermann_msgs.msg import AckermannDriveStamped
+from geometry_msgs.msg import Twist
+from nav_msgs.msg import Odometry
+from time import time, sleep
+rospy.sleep(5)
+old_pose_x=0.0
+old_pose_y=0.0
+i=1
+
+def callback(data):
+    global pos_x , pos_y , old_pose_x , old_pose_y , current , last ,i     
+    if i == 1:
+       last=rospy.Time.now()
+       rospy.sleep(5)
+
+       i=0
+
+    pose_x=data.pose.pose.position.x
+    pose_y=data.pose.pose.position.y
+    current=rospy.Time.now()
+
+    v_x=(pose_x-old_pose_x)/(current-last).to_sec()
+    v_y=(pose_y-old_pose_y)/(current-last).to_sec()
+    v=math.sqrt(  ((pose_x-old_pose_x)*(pose_x-old_pose_x)) + (((pose_y-old_pose_y)*(pose_y-old_pose_y)) )/(current-last).to_sec()
+    #print("velocity")
+    #print(v)
+   # print("v_y")
+    #print(v_y)
+    print("last-current")
+    print(last.to_sec())
+    print(current.to_sec())
+
+
+    
+    old_pose_x=pose_x
+    old_pose_y=pose_y
+    last=current
+
+
+def listener():
+
+    rospy.init_node('listener', anonymous=True)
+    rospy.Subscriber("/odometry/gps", Odometry, callback)
+    rospy.spin()
+
+if __name__ == '__main__':
+    listener()

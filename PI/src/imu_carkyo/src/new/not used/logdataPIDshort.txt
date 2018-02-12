@@ -1,0 +1,2081 @@
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.0
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.0
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.118376902742
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.118444997416
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.118509231078
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.118580211318
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.118715441468
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.185884686383 0.11867068699
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.118502152569
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.118712686692
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.118651133999
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.118661277579
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.118825467825
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.11863171286
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.118628366993
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.118675966248
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.118526555519
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.118542858407
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.118490067021
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.118576882395
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.118596822558
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.118434553841
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.118565587006
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.119773936602
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.119592169383
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.120035177779
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.120176886595
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.120141186411
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.120377602383
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.120154853717
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.120508512279
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.120638490173
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121559082798
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121532750234
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.185773157802 0.121670390011
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.122116423883
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.122004917856
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.122127477515
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.122240837726
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121663476379
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121807328353
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121884523361
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.185730440655 0.122051139093
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.122251178965
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.122990801281
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.122603521997
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.122388750092
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.185812177579 0.122519116344
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.122351063519
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.12251540812
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.122564836122
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.122433101442
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.122335469091
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.122393748235
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.185767584886 0.122377429343
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.185710017659 0.122164294258
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.122013916264
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121997650447
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121993623684
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.122102007577
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.122054801798
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.185776873265 0.121942996262
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121792797939
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.12164525843
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121819276128
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.122023747743
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121818442199
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121817789685
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121769414302
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121857246742
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.122172388667
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121879731746
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121616397176
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121465478278
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121220778175
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.185841917936 0.121216930077
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.120982367853
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121008302497
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121061707717
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121145518823
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121124295838
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121051987516
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121082985671
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121159939054
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.12115272328
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121152670986
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.120954870159
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121199506176
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121228503991
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121176899394
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.12116536999
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.1211517135
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121117795147
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.12105200343
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.12100383601
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121038884957
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121030186301
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.120887002113
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.120795828153
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.120824114765
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.12094172804
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.120992170825
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121016912808
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.120955085309
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.120883347233
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.120793667922
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.12085073535
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.12081999534
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.120815468634
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.120899138236
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.120987019449
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.120895178484
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121041185447
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121099957367
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121250845832
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.12134496527
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121385172908
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121223283145
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121257214656
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121305715061
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121272145896
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121252139071
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121309271863
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121413330141
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121489671057
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121570609173
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121579430432
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121468424879
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121321529348
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121373975529
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121285174988
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121275115348
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121280980685
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121147080739
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121226936705
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121155677708
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.12115279442
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121153413034
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121274859998
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121321105148
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121364555719
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121439885613
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121372952461
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121318202128
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121389843426
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121393722659
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121354103635
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121470895772
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121374220763
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121437335133
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121628507652
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.12165757062
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121639699505
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121682403248
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121673256607
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121636473362
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121679404754
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121708300426
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121623803158
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121608804567
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121494055278
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121601709201
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121720414948
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121569333359
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121493542856
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121829028992
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121863351491
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.12178571513
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121883168878
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121932061591
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121999018413
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.122030705462
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121972528755
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121891687852
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121997978972
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.122033833441
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.122124484004
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121978764876
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.122083442681
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.12211690764
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.122242745089
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.122213044997
+[INFO] [1512392084.065868]: mode wasn't forward 
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.122678397775
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.122603162718
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185815894603 0.12294216912
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.122922517943
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185697023545 0.123529290549
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.123858513071
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.186070865232 0.123915067677
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.124005181451
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185849354513 0.124102971706
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185849354513 0.123096875871
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185849354513 0.123619201327
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.122689911427
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185795452811 0.123210097145
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.123139076872
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185780588877 0.12293485139
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185780588877 0.123740456589
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.122458495235
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.186126791633 0.123912015067
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185519001853 0.123578840527
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.123391792791
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185799169166 0.12350429076
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185737868313 0.123045379554
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185825187814 0.123400826478
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185788020546 0.123594396146
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185788020547 0.123283165609
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185767584886 0.123605380765
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.123602663866
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185697023545 0.123641448687
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185825187814 0.123533831362
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.123468122896
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.371691272301 0.12302949161
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.123181188527
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185893986477 0.1232636042
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.123108755149
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.371520309702 0.12326752788
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.122992708688
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.122916854888
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.371464595028 0.122687552306
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.123005379737
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185773157802 0.122710766208
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185832623052 0.122992886308
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.122805098774
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185639500035 0.122653320743
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.122645390809
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.1224086809
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.371475736626 0.122384319844
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.122505335917
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.122058024782
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.18568403125 0.122313518101
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185789878557 0.122621213802
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.121956880001
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.12249722043
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185632080242 0.121869795267
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185728583833 0.122588123689
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.12241386437
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.122075382008
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185802885669 0.122515502042
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.122185901235
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185745296565 0.122359873995
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.122486722046
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185892126383 0.122205900839
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.122367547726
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185853073025 0.122255569689
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.122468681531
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185776873265 0.122257798506
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.122402143587
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185773157802 0.122536401613
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.122676620679
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185841917936 0.122601221227
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185760154851 0.122304246635
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.122646423549
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185788020547 0.12176784845
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185743439446 0.121991636556
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.121915037924
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.12200009616
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.371104709832 0.121690107358
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.121827445009
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.121532108743
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.371557462105 0.121571810864
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.121784307546
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.12166956615
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.372220020367 0.121601046593
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.121636223799
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.121654211086
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.371535169772 0.121543336562
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.122004906171
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.121444418115
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.371505450821 0.121575057754
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.121554980667
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185758297435 0.121386497128
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185782446739 0.121836393135
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.121394901854
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185775015515 0.121969773002
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185789878557 0.121818043977
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.121920960862
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185767584886 0.122192844543
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185778731052 0.122227605058
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.121960324171
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185771300126 0.122324691919
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185782446739 0.122242268879
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185782446739 0.122213096435
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.122519322089
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185823329097 0.122549454463
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185767584886 0.122444927009
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.122641364629
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185415313404 0.122347272898
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.186134251027 0.122898449873
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.122550383751
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185791736604 0.122738875281
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185665473981 0.123058723638
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.123027852011
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.186171556966 0.123121360311
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185769442487 0.123028004069
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.123244959655
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.123516370683
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.371579757113 0.123128155629
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.123509302002
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.123605319392
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.371542600252 0.123168097675
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.123624234627
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185730440655 0.123307826457
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185812177579 0.123769374765
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185812177579 0.12308459861
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.123304708078
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.371579757113 0.123650691314
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.123124939933
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.123116051849
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185828905359 0.123316298613
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185828905359 0.123219045119
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185828905359 0.123195173531
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.123293149416
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185767584886 0.122845931661
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185741582365 0.123128286864
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185762012304 0.122734720036
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.122707847916
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185802885669 0.123056177423
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185802885669 0.122474747907
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.122618483777
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.371609487953 0.122435586304
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.122176084119
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185789878557 0.12178029313
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185799169165 0.121568894561
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185730440655 0.121225772109
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.121128191403
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.371520309702 0.121070872447
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.120519209185
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.120841611925
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.371501736287 0.120697414878
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.120128438031
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.120724011679
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.120065543892
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185741582365 0.119671933057
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.120011758801
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185791736604 0.11957482445
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185791736604 0.11934775512
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185827046568 0.119666155015
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.119482081714
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185713730597 0.119581049932
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185797310969 0.118880025958
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.119234791974
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185776873265 0.119048998582
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185776873265 0.118985197499
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185828905359 0.119074192486
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.118777066434
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.118833709832
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.118868280963
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185752725411 0.119160933612
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.1188750594
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185763869794 0.118994663877
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.11896630097
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185773157802 0.11893409386
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.119135132395
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.118933041314
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.119244085347
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.119231103438
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185789878557 0.119197606556
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185789878557 0.119018795684
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.119280659073
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.119355381036
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185834481955 0.119232849389
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.119530516847
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185786162573 0.119335229149
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185775015515 0.119631099613
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.11971087278
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.1200116076
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185793594689 0.119875920505
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.120381443738
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.371557462105 0.119833815078
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.120484706584
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185793594689 0.120205446916
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.120749625651
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.371527739589 0.120447971873
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.120701799494
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.120653894746
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.371531454643 0.120628002005
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.120722938953
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.12038205153
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.120619521058
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.120332942235
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.1201377966
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185812177579 0.120103469768
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.120253987416
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.120451886098
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185771300126 0.120400610856
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185784304637 0.120074057023
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.120106664977
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.186253682693 0.120033820724
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185797310969 0.119992821722
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.11988005404
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185784304638 0.12006911228
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185784304638 0.119940050404
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185782446739 0.120116993527
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.119903025992
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185732297514 0.120091918155
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.119961312576
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185810319123 0.120240512247
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185802885669 0.120240890106
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.120150065433
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185724870301 0.119714167893
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.119868083447
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.120052641162
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.120221142902
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185786162573 0.120356096992
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.12005786353
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.12063019056
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.120448806484
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.18573972532 0.120766356159
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.120710932407
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.120528095345
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185298802355 0.120821393919
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.120266084395
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.120701163899
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.120639328723
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185784304637 0.12059424369
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.120667648449
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.120450304014
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.120568756809
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.120695055218
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.120526671758
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.120734006263
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.120817677814
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.120889096548
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.121179795799
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.120862243659
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.121189484969
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.121228990461
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.12131870744
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.121304180409
+[0, 1, 1, 0, 1, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185747153721 0.121380572244
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185810319123 0.121391442683
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.121216946086
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.121531929291
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185767584886 0.121359717401
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.18559313606 0.121463120162
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.12164617358
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185743439446 0.121723057909
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185756440057 0.121462341115
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185756440057 0.1217043683
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.121507274839
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185773157802 0.121701428691
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.121339087911
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.121158553273
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.121218568287
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.12118559811
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.12130653978
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185784304637 0.121125836823
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.120975940943
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.120927820975
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185762012304 0.120833006892
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.120791787667
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.120545479715
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.120717911544
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185719300282 0.120810035745
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.121147223077
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.12096480174
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185936778895 0.121276888077
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.121271156988
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.121339212486
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.371520309702 0.121361051967
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.371520309702 0.121736863276
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.371520309702 0.121655433715
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.121693466709
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.121945277523
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.371405184456 0.121797232495
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.12189141641
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.371501736287 0.121649303843
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.121699733963
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185791736604 0.121607377982
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185756440057 0.12164341805
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.0 0.121739107964
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185769442487 0.121598334009
+DAC value,move_base speed, sensor speed , pitch 27.596000038 0.10000000149 0.185786162573 0.121913200816
+mode = Normal
+0.0 move_base zero speed
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121800224442
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.186229410733 0.121773469991
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.185760154851 0.121605306238
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.121675459235
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.185758297435 0.121529240772
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.12096830029
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.185828905359 0.121527555981
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.120899502596
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.120798914719
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.120753489067
+[INFO] [1512392115.365995]: mode wasn't backward 
+[0, 1, 1, 1, 1, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 30.1040000734 -0.20000000298 -0.0 0.121168356767
+[0, 1, 1, 1, 1, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 30.1040000734 -0.20000000298 -0.186059683985 0.121246426562
+[0, 1, 1, 1, 1, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 30.1040000734 -0.20000000298 -0.0 0.121200065267
+[0, 1, 1, 1, 1, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 30.1040000734 -0.20000000298 -0.0 0.121400722895
+[0, 1, 1, 1, 1, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 30.1040000734 -0.20000000298 -0.0 0.121204439398
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185782446739 0.121238568595
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185782446739 0.121089015068
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185773157802 0.121019853033
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.121134394058
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185763869794 0.120932623367
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185778731052 0.120902953114
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.120993828448
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185676607897 0.120977648029
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185771300126 0.120642171942
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.120689791583
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.371557462105 0.120458276337
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.120745682709
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.12046515168
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.120547227518
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.120379176383
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.119966167431
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.119781696435
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.371535169772 0.119898348363
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.119646069011
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.371661528374 0.119660742572
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185789878557 0.120009904613
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185767584886 0.119843617927
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185769442487 0.120180670828
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185743439446 0.120005692092
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185752725411 0.119876930351
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185832623052 0.120215082381
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185795452811 0.120092000503
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185765727322 0.12030540555
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185786162573 0.120209659011
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.18579545281 0.120425357722
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.371609487954 0.120495001411
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.120264631882
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.371434887367 0.120421745491
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.120244916362
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.37168755405 0.120047969298
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.119865960648
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.371590905621 0.119637321479
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.119516628638
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.371505450822 0.119558855032
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185591281983 0.119249927353
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185996348957 0.119393192908
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185769442488 0.119398844445
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185769442488 0.119192003482
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185806602321 0.119033700199
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185795452811 0.118910766093
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185717443683 0.118703297883
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185806602322 0.11877198278
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185793594689 0.118498284434
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185788020547 0.118688782153
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185778731052 0.118640076543
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185750868144 0.118492281367
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185791736604 0.118920434751
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185754582715 0.118705274607
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.37155374653 0.118725610564
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.118990467089
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.371542600252 0.119024222561
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.119255773662
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.371583473208 0.119686228889
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.119599051926
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.371564893477 0.119793204852
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.119898895403
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.371661528374 0.119898895403
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.119925836831
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185802885669 0.119657792006
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185756440057 0.119967042328
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185762012304 0.119933061007
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185762012304 0.119901998418
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185970282359 0.119730845011
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185810319123 0.119873207267
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.119533704057
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185775015515 0.119675745192
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185788020546 0.119566725782
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.119622617482
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185793594689 0.119386615036
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185732297514 0.119614895383
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.119503350715
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185869808169 0.119316368936
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185784304638 0.11930084671
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185767584886 0.118926835164
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.119443734664
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185799169165 0.118980264454
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185773157802 0.11938835571
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185830764187 0.119161435866
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185788020546 0.119158647871
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185767584886 0.118982361418
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185741582365 0.119432064696
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185806602322 0.119425780516
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185786162573 0.119532036391
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185773157802 0.120099617546
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.120008279171
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.37147945064 0.120119950412
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.120753287861
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.371672681789 0.120680802732
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.1208348456
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.371635506342 0.120956331039
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.120863882588
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.120960379645
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.121397935686
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.18570444853 0.120870890969
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185851213751 0.121031899487
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.121022708458
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185864229453 0.120965941558
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185717443683 0.121353692826
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185717443683 0.121640109491
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185717443683 0.121720333805
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185827046568 0.121500993431
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185637645031 0.121775267478
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.121822254921
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185788020546 0.122142162714
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.122012890079
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185306195529 0.122013147794
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185788020546 0.122073597257
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.122261097009
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185782446739 0.122160168785
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185812177579 0.122103579685
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.122389395293
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185802885669 0.122120292738
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185817753171 0.12231130126
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.12220117812
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185776873265 0.122343408232
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185810319123 0.122246095406
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185747153721 0.122492593622
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185793594689 0.121971701989
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.122459394905
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.371605771339 0.12226143901
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.122145075889
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.371557462105 0.12214863732
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.122131675422
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.122186116096
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.371572325147 0.121801199749
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.121738550227
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.371546315604 0.121742334781
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.121611391691
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.371557462105 0.121765549075
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.121934692235
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.371546315604 0.121309204572
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.121856900369
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.371498021827 0.12141836403
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.121637385831
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185758297435 0.121361648357
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185789878557 0.121399085868
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185773157802 0.12136114787
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185765727322 0.121465069622
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185561621784 0.120893464724
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.121073458086
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.371538884975 0.120941664282
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.120652934828
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185773157802 0.120934722332
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185793594689 0.120519150022
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185758297435 0.120936738111
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185791736604 0.120906359642
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.120486152018
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.371590905621 0.120525721579
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.120742901859
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.371605771339 0.120387770864
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.12043645323
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.371475736625 0.120384825109
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.120385522799
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185754582715 0.120788045642
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185789878557 0.120584876387
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.12074345753
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.370875045198 0.120716519098
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.120783560507
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.371546315604 0.121041580585
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.121091044606
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185801027399 0.121285461781
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185732297514 0.121568435443
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185741582364 0.120925279927
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185830764187 0.121314495644
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185830764187 0.121531870515
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185747153721 0.1211378821
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185825187814 0.121575034224
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185730440655 0.121362697113
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185799169166 0.121181402636
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185810319122 0.121196637727
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185750868144 0.121381520485
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185791736604 0.121511144393
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185760154851 0.121776154244
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185797310969 0.122072434505
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185776873265 0.121807460599
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185765727322 0.121985215534
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185782446739 0.122470804154
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.18573415441 0.122382973843
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185832623052 0.122366979861
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185756440057 0.121903151809
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.122048991033
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.371546315604 0.122251464463
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.122184978042
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.122121336606
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185801027399 0.121872214596
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185773157802 0.12211270656
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.12197487846
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.371616921407 0.12196018659
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.122221382944
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.121831818256
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185821470418 0.121933465403
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185769442487 0.121740856171
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.121351377532
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.186201412486 0.121180481056
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.121406867495
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185780588877 0.120976348891
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185782446739 0.12107514328
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.120993859825
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185762012304 0.121017177043
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185789878557 0.120587407968
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.120614775262
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185802885669 0.120426581734
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185719300282 0.120857135905
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.120458920392
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185838199871 0.120440994625
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185713730597 0.120559944543
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.120721712323
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185795452811 0.120555725446
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185726727049 0.120528044928
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.120643415393
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185771300126 0.120561266282
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185793594689 0.120483776865
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.120753219037
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185726727049 0.12043081716
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.120281251856
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185791736604 0.120642738824
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185815894603 0.120307495109
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.121089648545
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.120661778457
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185741582365 0.120854991278
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185797310969 0.1208705897
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.121219089081
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.120737680615
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.371657810717 0.121165700861
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.121025192657
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.121237754297
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.120902691404
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.121116334857
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.371434887367 0.121031993229
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.121196052753
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.1212374479
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.121479842332
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185736011343 0.121376975187
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.121629549868
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.121596181482
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.121807283192
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185769442487 0.121866049569
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185793594689 0.12176413592
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.12177272201
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.121904246581
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185760154851 0.121955371929
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185786162573 0.122262520497
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.122237867311
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185802885669 0.122106226691
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185786162573 0.122468459996
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.122292241846
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.122630392226
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185782446739 0.122900354433
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185812177579 0.12296282705
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.123348237339
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185786162573 0.123119657949
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.123044996192
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185801027399 0.123270739412
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185782446739 0.123469252445
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.123563212851
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185749010913 0.123648372616
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185773157802 0.123451699846
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.123513191798
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.123469948364
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185749010914 0.123368489803
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185849354513 0.123727983532
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.123508738023
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185708161246 0.123583973622
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.123745305856
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185827046568 0.124028507192
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.123983439753
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.18573415441 0.124073697531
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.124406356141
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.12457979438
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185749010914 0.124555595521
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185812177579 0.12481013078
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.125091593612
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.125137231597
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.371587189378 0.125113635214
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.124774158237
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.371709864673 0.125020934881
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.125000439939
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.125091864522
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.371527739589 0.124437707926
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.124677391069
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.124614037673
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.371594621939 0.124400566633
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.124106376804
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185882826476 0.124266054005
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.124343201924
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185769442487 0.124008781057
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.124017023011
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185804743977 0.123919727851
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185782446739 0.123915936529
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.123375090205
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185780588877 0.123512538972
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185791736604 0.123253804353
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.122999483267
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185773157802 0.122580013746
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.12277368936
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185754582715 0.122394739585
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185810319123 0.122181651593
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.122265078649
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185769442487 0.122307855196
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185773157802 0.122324411499
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.122189593365
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.371654093136 0.122002538891
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.121835364417
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.371576041093 0.121776488832
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.121776488832
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.121538725778
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.371594621939 0.121634088725
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.121147741827
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185812177579 0.121107854123
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185776873265 0.121319988548
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.121252488934
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.371657810717 0.121223974629
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.1214062458
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.37155374653 0.121458840533
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.121170787396
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185784304637 0.121189818129
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185782446739 0.121212850161
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.121396047836
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185825187814 0.121418705837
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185776873265 0.121368986722
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.121505465859
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185789878557 0.121467594571
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185771300126 0.121817381325
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.121904883172
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185776873265 0.121937502503
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185819611776 0.122471335497
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185771300126 0.122574878399
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185698879736 0.123170571733
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.12293451045
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.18573972532 0.123021656459
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.122784472863
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.371527739589 0.122146380268
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.121706516895
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185784304637 0.122353462844
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185736011343 0.122562176512
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.12299329056
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.371557462105 0.122534500905
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.123056657006
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.123344475316
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.12323723455
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.123212017633
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.371427461193 0.123160559
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.123243348742
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185775015515 0.123164436285
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185754582715 0.122810438949
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.123128534407
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185830764187 0.122770732227
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185715587122 0.122890664015
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.122644243316
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185788020547 0.12231267407
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.122227322801
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185776873265 0.122822479754
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185776873265 0.123244416028
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.123707088687
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185788020546 0.124003233951
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185808460704 0.123591670133
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.123667170863
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185789878557 0.123475591921
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185780588877 0.12370083765
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185741582365 0.123795659834
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.124005254784
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185793594689 0.12446555807
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185711874109 0.125172564899
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.124746491111
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185745296565 0.124874117082
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.125394120667
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.124804543971
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185776873265 0.124394386695
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185778731053 0.124941051262
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.125971084286
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185730440655 0.125965855833
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.18579545281 0.126366787045
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.126579919569
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185728583833 0.126356049441
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185754582715 0.126180584658
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.126091043517
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185758297435 0.126245471986
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185791736604 0.127288500293
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.127123684985
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.126873269349
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185801027399 0.127126124992
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185778731053 0.127766268555
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.127528464959
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.371724739911 0.127322457335
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.128159378166
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.127554442344
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.128151919695
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.371672681789 0.127687603549
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.127459776693
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.127413798549
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185771300126 0.127237451968
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185754582715 0.12714605196
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.126478108032
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185745296565 0.125839480844
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.18579545281 0.125807135814
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.125679802402
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.125168845973
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185810319123 0.125514275058
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185769442487 0.125767469235
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.125522396725
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.125723426899
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185791736604 0.12564575672
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185804743977 0.125631646015
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185782446739 0.125818552724
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.125787794957
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185728583833 0.125314014957
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.125450046616
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185750868144 0.125283980328
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.125283420253
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.125348521647
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185756440057 0.125415163105
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185782446739 0.125651082486
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.125529028407
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.125306678506
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185736011343 0.125153185166
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185784304637 0.125132010415
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.12526578122
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.125230765946
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.125324261553
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185780588877 0.125216124992
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185780588877 0.125115185876
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185780588877 0.125017034573
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.371501736287 0.124889471653
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.125043671776
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185799169165 0.124878012452
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185765727322 0.124991797605
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.124762716398
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.124884344404
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185717443683 0.124354588308
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185773157802 0.124678697824
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.124661774589
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185799169166 0.124760112369
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185687743148 0.124623157043
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.125095401591
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.125079098112
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185763869794 0.125169449984
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.125195078253
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185749010914 0.125110898616
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.124881936828
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185788020546 0.12562558937
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.124154619373
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185778731052 0.124096157134
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.124649869585
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.124417361795
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185741582365 0.124402672158
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.185773157802 0.124477747972
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.124474153586
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.12428324915
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.371564893477 0.125160198677
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.124186489671
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.124107865712
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.122956351761
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.123743921349
+[1, 0, 0, 0, 0, 0] DAC pins
+DAC value,move_base speed, sensor speed , pitch 32.5240002832 -0.300000011921 -0.0 0.124245430253
+mode = Normal
+0.0 move_base zero speed
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 -0.0 0.123834096112
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124248984289
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124367056522
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.123942964376
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.123701555145
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124625843782
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124405398082
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.185801027399 0.124689109641
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124591215131
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.185797310969 0.124871432417
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124766720674
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124584567536
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124755619892
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124624672701
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124818255763
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.125103984537
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124906882121
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124891217197
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.1246598669
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124768343184
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.18573415441 0.124561432926
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124641154057
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124448987643
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124753223251
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124494911531
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124147170571
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124346716792
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.12466618838
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124494390029
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124566488412
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124643592662
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124672389807
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124629386589
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124623289917
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124645535104
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124678196282
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124620084387
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124582866648
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124589137672
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124586926196
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124699005924
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124480825021
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124635382081
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124754040229
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124691359797
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.12464888444
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124222787868
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124406684762
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.12432546134
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.12363244014
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.123160896123
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.123472399825
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.123891487599
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.123587446449
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.123991147853
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124279945375
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124005729544
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124204364704
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124421002686
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.12442291419
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.12458258763
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124567167546
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124111656398
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124674402878
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.123830944263
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124151469436
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124628639203
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124463825783
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.12496310646
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.125055622999
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124671961882
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124817761754
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124708607581
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124739312173
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124836953176
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124311448636
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124169904679
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.123880080747
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.123854704266
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.12428166612
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124426504277
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124602598537
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124526865153
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124500358929
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124452811727
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124302634789
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124306477652
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.12436495083
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124212164927
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124181402245
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124060246659
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.12419964875
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124222101028
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124120070395
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124187249726
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124156047931
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124274766723
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124265358462
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124231737436
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124056836488
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124032913145
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124056529582
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.12405724653
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.12404287055
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124013672576
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.12390811379
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.123979229452
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124016753479
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.12408190067
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.124028698774
+[0, 1, 1, 0, 0, 1] DAC pins
+DAC value,move_base speed, sensor speed , pitch 25.0 0.0 0.0 0.123861941124
+[0, 1, 1, 0, 0, 1] DAC p

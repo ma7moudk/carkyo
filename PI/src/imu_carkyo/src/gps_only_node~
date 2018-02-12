@@ -1,0 +1,87 @@
+#!/usr/bin/env python
+
+import roslib  #; roslib.load_manifest('razor_imu_9dof')
+import rospy
+
+import serial
+import string
+import math
+import tf
+import re
+from time import time, sleep
+from sensor_msgs.msg    import NavSatFix
+from sensor_msgs.msg    import NavSatStatus
+
+
+
+rospy.init_node("node_gps")
+
+pub = rospy.Publisher('/fix1', NavSatFix, queue_size=5)
+
+GPSMsg = NavSatFix()
+default_port='/dev/ttyACM1'
+port = rospy.get_param('device', default_port)
+ser = serial.Serial(port=port,baudrate=38400, timeout=1)
+yaw =0.1
+pitch =0.1
+roll=0.1
+rospy.sleep(5) # Sleep for 8 seconds to wait for the board to boot then only write command.
+#ser.write('#ox' + chr(13)) # To start display angle and sensor reading in text 
+while 1:
+    line = ser.readline()
+    #rospy.loginfo(line)
+   # line = line.replace(":",",")
+    words = string.split(line,",")    # Fields split
+    print words[0]
+    if len(words) > 2:
+        try:
+            imuMsg.linear_acceleration.x = float(words[1])*9.80665/1000 # tripe axis accelerator meter
+            imuMsg.linear_acceleration.y = float(words[3])*9.80665/1000
+            imuMsg.linear_acceleration.z = float(words[5])*9.80665/1000
+            #angular velocity is received deg/sec , convert it
+  	    imuMsg.angular_velocity.x = float(words[7]) * math.pi /180.0
+            imuMsg.angular_velocity.y = float(words[9]) * math.pi /180.0
+            imuMsg.angular_velocity.z = float(words[11]) * math.pi /180.0
+       	    imuMsg.orientation.x = float(words[13])
+            imuMsg.orientation.y = float(words[15])
+            imuMsg.orientation.z = float(words[17])
+            imuMsg.orientation.w = float(words[19])
+
+            imu2Msg.orientation.x = float(words[21])
+            imu2Msg.orientation.y = float(words[23])
+            imu2Msg.orientation.z = float(words[25])
+            imu2Msg.orientation.w = 0
+
+     	    GPSMsg.latitude = float(words[27])
+            GPSMsg.longitude = float(words[29])
+            GPSMsg.altitude = float(words[31])
+
+            
+#       	    yaw = float(words[27])
+#            pitch = float(words[29])
+#            roll = float(words[31])
+
+
+
+        except Exception as e:
+            print e
+#	GPSMsg.header.seq= 1
+        GPSMsg.header.stamp= rospy.Time.now()
+        GPSMsg.header.frame_id = 'odom_frame'
+        pub.publish(GPSMsg)
+	imuMsg.header.frame_id = 'base_footprint' #'base_link'
+        imuMsg.header.stamp= rospy.Time.now()
+        imu2Msg.header.frame_id = 'base_footprint' #'base_link'
+	imu2Msg.header.stamp= rospy.Time.now()
+#        rospy.loginfo(yaw)
+#        rospy.loginfo(pitch)
+#        rospy.loginfo(roll)
+        imu_pub.publish(imuMsg)
+        imu2_pub.publish(imu2Msg)
+
+    print GPSMsg #Gibt alle Sensorwerte in einer Art Tabelle aus
+    print imuMsg
+    print imu2Msg.orientation
+    #print imuMsg.orientation
+
+ser.close

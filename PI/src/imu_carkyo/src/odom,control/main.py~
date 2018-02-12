@@ -1,0 +1,76 @@
+#!/usr/bin/env python
+ 
+import rospy
+from nav_msgs.msg import Odometry
+
+print "starting..............."
+#rospy.init_node( 'wheel_odometry_node', anonymous=True)
+
+
+from fun1 import * 
+
+odom_pub = rospy.Publisher('/wheel_odometry', Odometry, queue_size=10)
+odomMsg = Odometry()
+
+odomMsg.pose.covariance = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+odomMsg.twist.covariance = [0.1, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1]
+
+
+
+def pub_callback(event):
+    global vx , vy , ang_x , ang_y , ang_z , vL ,vR,fBetaRads
+    odomMsg.twist.twist.linear.x = vx
+    odomMsg.twist.twist.linear.y = vy
+    odomMsg.twist.twist.linear.z = 0.0  
+    odomMsg.twist.twist.angular.x = ang_x
+    odomMsg.twist.twist.angular.y = ang_y
+    odomMsg.twist.twist.angular.z = ang_z  
+    odomMsg.pose.pose.orientation.x = vR
+    odomMsg.pose.pose.orientation.y = vL
+    odomMsg.pose.pose.orientation.z =fBetaRads
+    odomMsg.header.frame_id = 'odom'
+    odomMsg.child_frame_id = 'base_footprint'
+    odomMsg.header.stamp= rospy.Time.now()
+    odom_pub.publish(odomMsg)
+    print "..... publishing Wheel odometry ...."
+
+rospy.Timer(rospy.Duration(0.1), pub_callback)
+
+
+def callbackImu(data):
+    global yaw , ang_x , ang_y , ang_z
+    quat_x=data.orientation.x
+    quat_y=data.orientation.y
+    quat_z=data.orientation.z
+    quat_w=data.orientation.w
+    (roll, pitch, yaw) = tf.transformations.euler_from_quaternion([quat_x, quat_y, quat_z, quat_w])
+    ang_x=data.angular_velocity.x
+    ang_y=data.angular_velocity.y
+    ang_z=data.angular_velocity.z
+#    yaw=yaw+((math.pi)/2.0)
+#    if(yaw>math.pi):
+#        yaw-=2*math.pi
+        
+    print "Callback IMU -- yaw: " , yaw*180.0/3.14
+
+
+
+def listener():
+    print "listener listner"
+    #rospy.Subscriber("/imu_enu",Imu, callbackImu,queue_size=1)
+    rospy.Subscriber("/rbcar_robot_control/command", AckermannDriveStamped, callback,queue_size=1)
+    rospy.spin()
+
+
+def translate(value, leftMin, leftMax, rightMin, rightMax):
+    # Figure out how 'wide' each range is
+    leftSpan = leftMax - leftMin
+    rightSpan = rightMax - rightMin
+    # Convert the left range into a 0-1 range (float)
+    valueScaled = float(value - leftMin) / float(leftSpan)
+    # Convert the 0-1 range into a value in the right range.
+    return rightMin + (valueScaled * rightSpan)
+
+if __name__ == '__main__':
+    listener()

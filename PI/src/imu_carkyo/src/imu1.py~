@@ -1,0 +1,114 @@
+#!/usr/bin/env python
+
+import roslib 
+import rospy
+import serial
+import string
+import math
+import tf
+import re
+from time import time, sleep
+from sensor_msgs.msg import Imu
+from geometry_msgs.msg import PoseWithCovariance
+from geometry_msgs.msg import Quaternion
+import serial.tools.list_ports
+
+rospy.init_node("node_imu")
+imu_pub = rospy.Publisher('/imu/data11', Imu, queue_size=5)
+imuMsg = Imu()
+imuMsg.linear_acceleration_covariance[0] = 0.0588;
+imuMsg.linear_acceleration_covariance[1] = -0.0009;
+imuMsg.linear_acceleration_covariance[2] = -0.0018;
+imuMsg.linear_acceleration_covariance[3] = -0.0009;
+imuMsg.linear_acceleration_covariance[4] = 0.0176;
+imuMsg.linear_acceleration_covariance[5] = -0.0005;
+imuMsg.linear_acceleration_covariance[6] = -0.0018;
+imuMsg.linear_acceleration_covariance[7] = 0.0005;
+imuMsg.linear_acceleration_covariance[8] = 0.0123;
+
+imuMsg.angular_velocity_covariance[0] = 0.0002;
+imuMsg.angular_velocity_covariance[0] = 0.0;
+imuMsg.angular_velocity_covariance[0] = 0.0046;
+imuMsg.angular_velocity_covariance[0] = 0.0;
+imuMsg.angular_velocity_covariance[4] = 0.0002;
+imuMsg.angular_velocity_covariance[0] = 0.0002;
+imuMsg.angular_velocity_covariance[0] = 0.0007;
+imuMsg.angular_velocity_covariance[0] = 0.0002;
+imuMsg.angular_velocity_covariance[8] = 0.0088;
+
+imuMsg.orientation_covariance[0] = 0.0002;
+imuMsg.orientation_covariance[0] =0.0;
+imuMsg.orientation_covariance[0] = 0.0046;
+imuMsg.orientation_covariance[0] = 0.0;
+imuMsg.orientation_covariance[4] = 0.0001;
+imuMsg.orientation_covariance[0] = 0.0005;
+imuMsg.orientation_covariance[0] = 0.0046;
+imuMsg.orientation_covariance[0] = 0.0005;
+imuMsg.orientation_covariance[8] = 0.1154;
+
+default_port='/dev/ttyACM0'
+#ports = list(serial.tools.list_ports.comports())
+#for p in ports:
+ #   if "ttyACM" in p[1]:
+  #      default_port = "/dev/"+ p[1]
+
+port = rospy.get_param('device', default_port)
+ser = serial.Serial(port=port,baudrate=115200, timeout=1)
+rospy.sleep(5) 
+
+
+
+while 1:
+    global error_code
+    line = ser.readline()
+    words = string.split(line,",")
+   # words=[0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+    print("line is")  
+    print(line) 
+
+    if len(words) == 14:
+        try:
+            #imuMsg.linear_acceleration.x = float(words[1])*9.80665/1000 # tripe axis accelerator meter
+            imuMsg.linear_acceleration.x = float(words[1]) 
+            imuMsg.linear_acceleration.y = float(words[2])
+            imuMsg.linear_acceleration.z = float(words[3])
+  	   # imuMsg.angular_velocity.x = float(words[7]) * math.pi /180.0
+  	    imuMsg.angular_velocity.x = float(words[5])
+            imuMsg.angular_velocity.y = float(words[6])
+            imuMsg.angular_velocity.z = float(words[7])
+       	    imuMsg.orientation.x = float(words[9])
+            imuMsg.orientation.y = float(words[10])
+            imuMsg.orientation.z = float(words[11])
+            imuMsg.orientation.w = float(words[12])
+
+            (r, p, y) = tf.transformations.euler_from_quaternion([imuMsg.orientation.x, imuMsg.orientation.y, imuMsg.orientation.z, imuMsg.orientation.w])
+            print(y*180.0/math.pi)
+            #error_code=int(words[14]);
+
+        except Exception as e:
+            print e
+	imuMsg.header.frame_id = 'imu_link' #'base_link'
+        imuMsg.header.stamp= rospy.Time.now()
+        imu_pub.publish(imuMsg)
+
+    if len(words) == 4 :
+        try:
+            error_code=int(words[3])
+            if error_code==1:  
+                print("Error:initial memory load failed")
+            elif error_code==2:  
+                print("Error:DMP configuration updates failed... restarting..")
+            elif error_code==3:  
+                print("Error:loop1... restarting..")
+            elif error_code==4:  
+                print("Error:loop2... restarting..")
+            elif error_code==10:  
+                print("Error:Wrong acceleration values ... restarting..")
+
+        except Exception as e:
+            print e
+
+
+        
+    #print imuMsg
+ser.close

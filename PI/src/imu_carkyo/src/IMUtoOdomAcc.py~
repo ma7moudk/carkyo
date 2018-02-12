@@ -1,0 +1,105 @@
+#!/usr/bin/env python
+# Starting form point (0,0) and VelX = VelY = 0: Use Acc.x and Acc.y to determine currect poistion in terms of meters from origin.
+import rospy
+import numpy as np
+import roslib
+import tf
+
+from std_msgs.msg import String
+from nav_msgs.msg import Odometry
+from sensor_msgs.msg import Imu
+from geometry_msgs.msg import *
+from tf.msg import *
+
+
+odom = Odometry()
+odom.header.frame_id = "odom"
+odom.child_frame_id = "base_footprint"
+odom_pub = rospy.Publisher('/odom/odom2', Odometry, queue_size=5)
+odom.pose.pose.position = Point(0, 0, 0)
+odom.pose.pose.orientation = Quaternion(0,0,0,1) #*(kdl.Rotation.RPY(0, 0, 0).GetQuaternion()))
+
+odom.twist.twist.linear.x = 0
+odom.twist.twist.linear.y = 0
+odom.twist.twist.linear.z = 0
+
+odom.twist.twist.angular.x = 0
+odom.twist.twist.angular.y = 0
+odom.twist.twist.angular.z = 0
+
+odom_prev = Odometry()
+odom_prev.header.frame_id = "odom"
+odom_prev.child_frame_id = "base_footprint"
+
+odom_prev.pose.pose.position = Point(0, 0, 0)
+odom_prev.pose.pose.orientation = Quaternion(0,0,0,1) #*(kdl.Rotation.RPY(0, 0, 0).GetQuaternion()))
+
+odom_prev.twist.twist.linear.x = 0
+odom_prev.twist.twist.linear.y = 0
+odom_prev.twist.twist.linear.z = 0
+
+odom_prev.twist.twist.angular.x = 0
+odom_prev.twist.twist.angular.y = 0
+odom_prev.twist.twist.angular.z = 0
+
+rospy.loginfo("IMUToOdomAccInit:AccX:%+2.4f,AccY:%+2.4f,VelX:%2.4f,VelY:%2.4f,PosX: 2.4f,PosX:%2.4f", 0.0, 0.0, odom.twist.twist.linear.x, odom.twist.twist.linear.y, odom.pose.pose.position.x, odom.pose.pose.position.y)
+
+def callback_IMU(data):
+    global odom
+    global odom_prev
+
+    #rospy.loginfo("IMU:Or:%+2.4f,%+2.4f,%+2.4f,%+2.4f  angvl:%+2.4f,%+2.4f,%+2.4f  Acc:%+2.4f,%+2.4f,%+2.4f", data.orientation.x,  data.orientation.y, data.orientation.z, data.orientation.w, data.angular_velocity.x, data.angular_velocity.y, data.angular_velocity.z, data.linear_acceleration.x, data.linear_acceleration.y, data.linear_acceleration.z)
+
+    OrgIMUorientationX = data.orientation.x
+    OrgIMUorientationY = data.orientation.y
+    OrgIMUorientationZ = data.orientation.z
+    OrgIMUorientationW = data.orientation.w
+    OrgIMUangularvelX = data.angular_velocity.x
+    OrgIMUangularvelY = data.angular_velocity.y
+    OrgIMUangularvelZ = data.angular_velocity.z
+    OrgIMULinearAccX = data.linear_acceleration.x
+    OrgIMULinearAccY = data.linear_acceleration.y
+    OrgIMULinearAccZ = data.linear_acceleration.z
+
+
+    odom.header.stamp = data.header.stamp
+    seconds = (odom.header.stamp - odom_prev.header.stamp).to_sec()
+    rospy.loginfo(seconds)
+    print(seconds)
+    odom.twist.twist.linear.x = (data.linear_acceleration.x * seconds) + odom_prev.twist.twist.linear.x
+    odom.twist.twist.linear.y = (data.linear_acceleration.y * seconds) + odom_prev.twist.twist.linear.y
+    linearx = (odom.twist.twist.linear.x + odom_prev.twist.twist.linear.x) / 2.0
+    lineary = (odom.twist.twist.linear.y + odom_prev.twist.twist.linear.y) / 2.0
+    odom.pose.pose.position.x = (linearx * seconds) + odom_prev.pose.pose.position.x
+    odom.pose.pose.position.y = (lineary * seconds) + odom_prev.pose.pose.position.y
+   # rospy.loginfo("IMUToOdomAcc:AccX:%+2.4f,AccY:%+2.4f,VelX:%2.4f,VelY:%2.4f,PosX:%2.4f,PosX:%2.4f", data.linear_acceleration.x, data.linear_acceleration.y, linearx, linearY, odom.pose.pose.position.x, odom.pose.pose.position.y)
+    odom_prev.header.stamp = odom.header.stamp
+    odom_prev.pose.pose.position = odom.pose.pose.position
+    odom_prev.pose.pose.orientation = odom.pose.pose.orientation
+    odom_prev.twist.twist.linear.x = odom.twist.twist.linear.x 
+    odom_prev.twist.twist.linear.y = odom.twist.twist.linear.y
+    odom_prev.twist.twist.linear.z = odom.twist.twist.linear.z
+
+    odom_prev.twist.twist.angular.x = odom.twist.twist.angular.x
+    odom_prev.twist.twist.angular.y = odom.twist.twist.angular.y
+    odom_prev.twist.twist.angular.z = odom.twist.twist.angular.z
+
+    # publish the message
+    odom_pub.publish(odom)
+    print(odom)
+
+def listener():
+
+    #odom.header.stamp = current_time
+    # In ROS, nodes are uniquely named. If two nodes with the same
+    # node are launched, the previous one is kicked off. The
+    # anonymous=True flag means that rospy will choose a unique
+    # name for our 'listener' node so that multiple listeners can
+    # run simultaneously.
+    rospy.init_node('IMUtoOdom', anonymous=True)
+    rospy.Subscriber("/imu1/data", Imu, callback_IMU)
+    # spin() simply keeps python from exiting until this node is stopped
+    rospy.spin()
+
+if __name__ == '__main__':
+    listener()

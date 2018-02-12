@@ -1,0 +1,290 @@
+#!/usr/bin/env python
+import roslib  
+import rospy
+import serial
+import string
+import math
+import re
+from time import time, sleep
+from ackermann_msgs.msg import AckermannDriveStamped
+##########################
+previousL=0.0
+#adding odom 
+
+from nav_msgs.msg import Odometry
+from geometry_msgs.msg import PoseWithCovariance
+from geometry_msgs.msg import TwistWithCovariance
+from std_msgs.msg import Header
+from geometry_msgs.msg import Quaternion
+from geometry_msgs.msg import TransformStamped
+
+tickR= 0.0
+tickL= 0.0
+previousL=0.0
+previousR =0.0
+x=0.0
+y=0.0
+th =0.0
+
+last_time=0.0
+ticksPerSpin = 25
+diameter = 0.41
+lengthBetweenTwoWheels = 1.01
+DistancePerCount = (math.pi * diameter) / ticksPerSpin
+
+odom_pub = rospy.Publisher('/wheel/odom', Odometry, queue_size=10)
+
+odomMsg = Odometry()
+odomQuat = Quaternion()
+#odomTrans = TransformStamped()
+
+odomMsg.pose.covariance = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+odomMsg.twist.covariance = [0.1, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1]
+
+###########################33333
+import serial.tools.list_ports
+default_port='/dev/ttyUSB0'
+#ports = list(serial.tools.list_ports.comports())
+#for p in ports:
+ #   if "ttyUSB" in p[0]:
+  #      default_port =  p[0]
+
+
+#################################
+steering_angle=0
+speed=0
+old_steering_angle=0.0
+old_speed=10.0
+angle='\x70'
+acc='\x50'
+enter='\x13'
+#flag= false
+mode='\x20'
+port = rospy.get_param('device', default_port)
+#ser = serial.Serial(port=port, baudrate=9600,parity=PARITY_EVEN,  timeout=1)
+ser = serial.Serial(port=port, baudrate=9600,  timeout=1)
+rospy.sleep(2) 
+
+def callback(data):
+    global steering_angle
+    global speed
+    global old_steering_angle
+    global old_speed 
+    global mode
+    global angle
+    global acc
+    global enter
+    global flag
+    global ticks
+    encoder()
+
+########################1st#################################
+    steering_angle=data.drive.steering_angle
+    speed=data.drive.speed
+    #rospy.loginfo("speed is %f",speed)
+
+
+########################speed#################################
+    if (speed == 0.0) and (speed != old_speed) :
+       rospy.loginfo("Brakes on ")
+       mode='\x10'
+       ser.write(mode)
+       rospy.loginfo(mode)
+         
+    elif (speed !=0.0) :
+      #rospy.loginfo("Brakes off")
+      if speed < 0.0 and (speed != old_speed) :
+         #rospy.loginfo("baaaaaaack ")
+         if (mode !='\x40'):
+           rospy.loginfo("mode wasn't backward ")
+           rospy.sleep(1)
+           mode='\x40'
+           ser.write(mode)
+           rospy.sleep(3)
+         #acc='\x5f'
+         #test_acc=95
+         speedTemp=speed
+         speedTemp=translate(speedTemp, -0.20, 0.00, 95, 85)
+         speedTemp2=int(speedTemp)
+         rospy.loginfo(speedTemp2)
+         #acc=hex(int(speedTemp))
+         acc=chr(speedTemp2)
+         #acc=chr(int(test_acc))
+
+      elif speed > 0.0 and (speed != old_speed):
+         #rospy.loginfo("forwaaard ")
+         if (mode !='\x30'):
+           rospy.loginfo("mode wasn't forward ")
+           rospy.sleep(1)
+           mode='\x30'
+           ser.write(mode)
+           rospy.loginfo(mode)
+           rospy.sleep(3)
+         speedTemp=speed
+         speedTemp=translate(speedTemp, 0.00, 0.20, 85, 95)
+         speedTemp2=int(speedTemp)
+         rospy.loginfo(speedTemp2)
+         #acc=hex(int(speedTemp))
+         acc=chr(speedTemp2)
+         #acc=chr(int(test_acc))
+    
+      ser.write(acc)
+      rospy.loginfo(acc)
+########################steering#################################
+   # if (steering_angle == 0.0) and (steering_angle != old_steering_angle) :
+    #   rospy.loginfo("steer off")
+      # mode='\x70'
+     #  ser.write('\x70')
+      # rospy.loginfo('\x70')
+         
+    if (steering_angle != old_steering_angle):
+      if steering_angle < 0.0 and (steering_angle < old_steering_angle) :
+         steeringTemp=steering_angle
+         steeringTemp=translate(steeringTemp, -0.70, 0.00, 159, 145)
+         steeringTemp2=int(steeringTemp)
+         rospy.loginfo("1st condition more negative")
+         rospy.loginfo(steeringTemp2)
+         angle=chr(steeringTemp2)
+         ser.write(angle)
+         #rospy.sleep(1)
+
+      elif steering_angle < 0.0 and (steering_angle > old_steering_angle) :
+         steeringTemp=steering_angle
+         steeringTemp=translate(steeringTemp, -0.70, 0.00, 129, 132)
+         steeringTemp2=int(steeringTemp)
+         rospy.loginfo(steeringTemp2)
+         rospy.loginfo("2nd condition less negative")
+         angle=chr(steeringTemp2)
+         ser.write(angle)
+         #rospy.sleep(1)
+
+      elif steering_angle >= 0.0 and (steering_angle > old_steering_angle):
+         steeringTemp=steering_angle
+         steeringTemp=translate(steeringTemp, 0.00, 0.70, 129, 143)
+         steeringTemp2=int(steeringTemp)
+         rospy.loginfo(steeringTemp2)
+         rospy.loginfo("3rd condition more positive ")
+         angle=chr(steeringTemp2)
+         ser.write(angle)
+         #rospy.sleep(1)
+
+      elif steering_angle >= 0.0 and (steering_angle < old_steering_angle):
+         steeringTemp=steering_angle
+         steeringTemp=translate(steeringTemp, 0.00, 0.70, 149, 145)
+         steeringTemp2=int(steeringTemp)
+         rospy.loginfo("4th condition less positive ")
+         rospy.loginfo(steeringTemp2)
+         angle=chr(steeringTemp2)
+         ser.write(angle)
+         #rospy.sleep(1)
+ 
+         
+
+#############################################################################3
+    old_steering_angle=steering_angle
+    old_speed=speed
+
+#####################################################################3
+####################################################################3
+
+
+def encoder():
+    global previousL , previousR ,last_time ,current_time , x ,y ,th ,ticksPerSpin , diameter ,lengthBetweenTwoWheels, DistancePerCount
+    
+    rospy.loginfo("encoder fun")
+
+    #while ser.in_waiting:  # Or: 
+    while ser.inWaiting():
+    #rospy.loginfo("line")
+      line = ser.readline()
+      line = line.replace(":",",")
+      words = string.split(line,",")
+      rospy.loginfo(line)
+    #words = [0,1,2,3,4,5]
+      if len(words) > 11 and words[0]=="Ver":
+        rospy.loginfo(line)
+        tickR = float(int(words[5],16))
+        tickL = float(int(words[6],16))
+        current_time = float(int(words[2],16))/1000.0
+    ##rospy.loginfo(words[1])
+    ##rospy.loginfo(words[2])
+        if (tickL - previousL) > 20.0 :
+          tickL=previousL
+          rospy.loginfo("error in receiving left encoder , ignoring it")
+        if (tickR - previousR) > 20.0 :
+          tickR=previousR
+          rospy.loginfo("error in receiving right encoder , ignoring it")
+        if (current_time - last_time) > 0.17 :
+          rospy.loginfo("error in receiving time ")
+        deltaL = tickL - previousL
+        deltaR = tickR - previousR
+        rospy.loginfo("current_time then last time")
+        rospy.loginfo(current_time)
+        rospy.loginfo(last_time)
+        vL= (deltaL * DistancePerCount)/(current_time - last_time)
+        vR= (deltaR * DistancePerCount)/(current_time - last_time)
+        vx= (vR + vL)/ 2.0
+        vy= 0.0
+        vth=(vR - vL)/ lengthBetweenTwoWheels
+        dt = (current_time - last_time)
+        delta_x = (vx * math.cos(th)) * dt
+        delta_y = (vx * math.sin(th)) * dt
+        delta_th = vth * dt
+        x += delta_x
+        y += delta_y
+        th += delta_th
+        odomMsg.pose.pose.position.x = x
+        odomMsg.pose.pose.position.y = y
+        odomMsg.pose.pose.position.z = 0.0
+
+        odomMsg.pose.pose.orientation.x =0
+        odomMsg.pose.pose.orientation.y = 0
+        odomMsg.pose.pose.orientation.z = 0
+        odomMsg.pose.pose.orientation.w = 0
+
+        odomMsg.twist.twist.linear.x = vx
+        odomMsg.twist.twist.linear.y = vy
+        odomMsg.twist.twist.linear.z = 0.0
+   
+        odomMsg.twist.twist.angular.x = 0.0
+        odomMsg.twist.twist.angular.y = 0.0
+        odomMsg.twist.twist.angular.z = vth
+
+        odomMsg.header.frame_id = 'odom'
+        odomMsg.child_frame_id = 'base_link'
+        odomMsg.header.stamp= rospy.Time.now()
+        print("position")
+        print(odomMsg.pose.pose.position)
+        print("linearvx,angularvz")
+        print(odomMsg.twist.twist.linear.x)
+        print(odomMsg.twist.twist.angular.z)
+        print("orientation")
+        print(odomMsg.pose.pose.orientation)
+    #p= rospy.Time.now()
+
+        odom_pub.publish(odomMsg)
+        previousL = tickL
+        previousR = tickR
+        last_time = current_time
+    
+def listener():
+    rospy.loginfo(10)
+    rospy.init_node('ser_pub', anonymous=True)
+    rospy.Subscriber("/rbcar_robot_control/command", AckermannDriveStamped, callback,queue_size=1)
+    rospy.spin()
+
+
+def translate(value, leftMin, leftMax, rightMin, rightMax):
+    # Figure out how 'wide' each range is
+    leftSpan = leftMax - leftMin
+    rightSpan = rightMax - rightMin
+
+    # Convert the left range into a 0-1 range (float)
+    valueScaled = float(value - leftMin) / float(leftSpan)
+
+    # Convert the 0-1 range into a value in the right range.
+    return rightMin + (valueScaled * rightSpan)
+
+if __name__ == '__main__':
+    listener()

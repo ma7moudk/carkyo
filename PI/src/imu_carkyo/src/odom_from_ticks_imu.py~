@@ -1,0 +1,161 @@
+#!/usr/bin/env python
+
+import roslib 
+import tf
+import rospy
+import serial
+import string
+import math
+from time import time, sleep
+from nav_msgs.msg import Odometry
+from geometry_msgs.msg import Quaternion
+from sensor_msgs.msg import Imu
+
+ticks= 0.0 
+ticks2= 0.0 
+previousTicks=0.0
+previousTicks2=0.0
+deltaTicks=0.0
+deltaTicks2=0.0
+ticksPerSpin = 1000*2.9/2.3
+diameter = 0.41 
+yaw =0
+yaw2 =0
+DistancePerCount = (math.pi * diameter) / ticksPerSpin
+
+rospy.init_node("odom_from_ticks_imu")
+odom_pub = rospy.Publisher('/wheel_odom', Odometry, queue_size=5)
+
+odomMsg = Odometry()
+
+default_port='/dev/ttyUSB'
+from serial.tools import list_ports
+ports=list_ports.comports()
+for p in ports:
+    if "ttyACM" in p[0]:
+        default_port =  p[0]
+
+port = rospy.get_param('device', default_port)
+ser = serial.Serial(port=port,baudrate=115200, timeout=1)
+
+previosTime =0
+rospy.sleep(5) 
+currentTime=0.0001
+
+
+def odom():
+	global ticks, ticks2 , previousTicks ,previousTicks2 , deltaTicks , deltaTicks2 , ticksPerSpin , ticksPerSpin2 , diameter, yaw , yaw2 , DistancePerCount , fBetaRads , previosTime , currentTime
+	while 1:
+
+		fBetaRads=yaw-yaw2
+		line = ser.readline()
+		print line
+		words = string.split(line,",")
+		#words = ["1","1000","3","4"]
+		if len(words) > 7:
+		    try:
+			ticks = int(words[1])
+			ticks2 = int(words[3])
+			previosTime =float(words[5])
+			currentTime =float(words[7])
+
+		    except Exception as e:
+			print e
+
+		deltaTicks = ticks - previousTicks
+		deltaTicks2 = ticks2 - previousTicks2
+		dt=(currentTime - previosTime)*0.001
+		if dt == 0 :
+		   dt =0.00001
+		Vmps= (deltaTicks * DistancePerCount)/dt
+		Vmps2= (deltaTicks2 * DistancePerCount)/dt
+		vx = Vmps * math.cos(fBetaRads) * math.cos(yaw)   # fbetaRads is wheel angle  
+		vy = Vmps * math.cos(fBetaRads) * math.sin(yaw)
+		vx2 = Vmps2 * math.cos(fBetaRads) * math.cos(yaw)   # fbetaRads is wheel angle  
+		vy2 = Vmps2 * math.cos(fBetaRads) * math.sin(yaw)
+#		print "Vmps-Vmps2"
+		print Vmps
+		print " "
+#		print ticksPerSpin
+#		print Vmps2
+#		print dt , deltaTicks , DistancePerCount
+#	print "yaw-yaw2"
+#	print yaw*180.0/3.14
+#	print yaw2*180.0/3.14
+#	print "    "
+#	print "    "
+#	print "diff2"
+#	diff=(yaw-yaw2)*180.0/3.14
+#	if diff < 0.0:
+#	  diff+=360
+	
+#	print diff
+
+###################3
+#	print "yaw-yaw2"
+#	print yaw*180.0/3.14
+#	print yaw2*180.0/3.14
+#	yawnew=yaw+3.14
+#	yaw2new=yaw2+3.14
+#	print "diff2"
+#	diff=(yawnew-yaw2new)*180.0/3.14
+#	if diff < 0.0:
+#	  diff+=360
+#	print diff
+#	print "    "
+#	print "    "
+	
+
+
+
+###################
+	
+		odomMsg.twist.twist.linear.x = vx
+		odomMsg.twist.twist.linear.y = vy
+		odomMsg.twist.twist.angular.x = vx2
+		odomMsg.twist.twist.angular.y = vy2
+		odomMsg.pose.covariance = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+		odomMsg.twist.covariance = [0.1, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1]
+		odomMsg.header.frame_id = 'odom'
+		odomMsg.child_frame_id = 'base_footprint'
+		odomMsg.header.stamp= rospy.Time.now()
+		odom_pub.publish(odomMsg)
+		#print odomMsg.twist
+		previousTicks = ticks
+		previousTicks2 = ticks2
+		previosTime = currentTime
+
+
+
+def listener():
+    #rate = rospy.Rate(100)
+    #rospy.loginfo(10)
+    #rospy.init_node("odom_from_ticks_imu", anonymous=True)
+    rospy.Subscriber("/imu_data2", Imu, callback_IMU2)
+    rospy.Subscriber("/imu_data", Imu, callback_IMU)
+    rospy.spin()
+    #rate.sleep() 
+
+def callback_IMU(data):
+    odom()
+  #  print "imu1"
+    global yaw
+    quat = (data.orientation.x,data.orientation.y,data.orientation.z,data.orientation.w)
+    euler = tf.transformations.euler_from_quaternion(quat)
+    yaw = euler[2]
+    #yaw = data.linear_acceleration.z
+
+def callback_IMU2(data):
+    odom()
+    global yaw2
+   # print "imu2"
+    #print data.orientation.x
+    quat2 = (data.orientation.x,data.orientation.y,data.orientation.z,data.orientation.w)
+    euler2 = tf.transformations.euler_from_quaternion(quat2)
+    yaw2 = euler2[2]
+
+
+if __name__ == '__main__':
+    #listener()
+    odom()

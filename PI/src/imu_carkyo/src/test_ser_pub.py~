@@ -1,0 +1,69 @@
+#!/usr/bin/env python
+
+import roslib  
+import rospy
+
+import serial
+import string
+import math
+
+import re
+from time import time, sleep
+
+port = rospy.get_param('device', '/dev/ttyUSB0')
+ser = serial.Serial(port=port, baudrate=9600, timeout=1)
+ 
+
+rospy.sleep(3)
+mode='\x40'
+ser.write(mode)
+rospy.sleep(1) 
+acc='\x5f'l
+ser.write(acc)
+rospy.sleep(4)
+ser.write(' ')
+
+speed=-10.0
+old_speed=0.0
+mode='\x20'
+
+if (speed == 0) and (speed != old_speed) :
+   mode='\x10'
+   ser.write(mode)
+   rospy.loginfo(mode)
+         
+
+elif speed < 0 and (speed != old_speed) :
+   if (mode !='\x40'):
+     rospy.sleep(1)
+     mode='\x40'
+     ser.write(mode)
+     rospy.loginfo(mode)
+   rospy.sleep(1)
+   acc='\x5f'
+   ser.write(acc)
+   rospy.loginfo(acc)
+   rospy.sleep(1)
+   mod='\x20'
+   ser.write(mod)
+
+
+
+elif speed > 0 and (speed != old_speed):
+   if (mode !='\x30'):
+     rospy.sleep(1)
+     mode='\x30'
+     ser.write(mode)
+     rospy.loginfo(mode)
+   rospy.sleep(1)
+   acc='\x5f'
+   ser.write(acc)
+   rospy.sleep(1)
+   mod='\x20'
+   ser.write(mod)
+   rospy.loginfo(acc)
+
+else :
+   mod='\x20'
+   ser.write(mod)
+   

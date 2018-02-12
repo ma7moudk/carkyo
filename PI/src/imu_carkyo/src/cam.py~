@@ -1,0 +1,28 @@
+#!/usr/bin/env python
+
+###############imports & init################
+import rospy
+import std_msgs.msg
+from geometry_msgs.msg import Point
+from sensor_msgs.msg import PointCloud
+from time import time, sleep
+
+rospy.init_node("point_cloud_node")
+
+
+###############get data & publish topic################
+cloud_pub = rospy.Publisher('/point_cloud', PointCloud, queue_size=10)
+cloud_msg = PointCloud()
+cloud_msg.header = std_msgs.msg.Header()
+cloud_msg.header.stamp = rospy.Time.now()
+cloud_msg.header.frame_id = "map"
+
+stacked=getcloud_msg()
+numberOfPoints=len(stacked[0])
+for i in range(numberOfPoints):
+  cloud_msg.points[i].x = stacked[i][0]
+  cloud_msg.points[i].y = stacked[i][1]
+  cloud_msg.points[i].z = stacked[i][2]
+
+cloud_pub.publish(cloud_msg)
+

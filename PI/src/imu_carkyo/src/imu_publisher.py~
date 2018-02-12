@@ -1,0 +1,117 @@
+#!/usr/bin/env python
+
+import roslib  
+import rospy
+
+import serial
+import string
+import math
+
+import re
+from time import time, sleep
+from sensor_msgs.msg import Imu
+from geometry_msgs.msg import PoseWithCovariance
+from geometry_msgs.msg import Quaternion
+
+import serial.tools.list_ports
+import tf
+
+#adding 
+#import transform_datatypes
+
+
+#Russel this line beneath is under test to see if it will effect and any existance 
+#to the grad2grad should be taking down if it didn't work so go through the code and take it off
+#grad2rad = 3.141592/180.0
+
+rospy.init_node("node1")
+imu_pub = rospy.Publisher('imu/data1', Imu, queue_size=5)
+
+imuMsg = Imu()
+#q = Quaternion()
+
+#Russel 
+#I have changed the values of the covariance and set the angulat velocity to false 
+imuMsg.orientation_covariance = [0.01 , 0 , 0,
+0, 0.01, 0,
+0, 0, 0.01]
+imuMsg.angular_velocity_covariance = [-1, 0 , 0,
+0 , 99999, 0,
+0 , 0 , 0.02]
+imuMsg.linear_acceleration_covariance = [0.01 , 0 , 0,
+0 , 0.01, 0,
+0 , 0 , 0.01]
+
+#x=re.compile('/dev/ttyUSB\d')
+
+ports = list(serial.tools.list_ports.comports())
+#for p in ports:
+   # if "ttyACM" in p[1]:
+        #default_port = p[1]
+
+default_port= '/dev/ttyACM1'
+port = rospy.get_param('device', default_port)
+
+ser = serial.Serial(port=port, baudrate=38400, timeout=1)
+
+
+
+roll=0
+pitch=0
+yaw=0
+rospy.sleep(5) # Sleep for 8 seconds to wait for the board to boot then only write command.
+ser.write('#ox' + chr(13)) # To start display angle and sensor reading in text 
+while 1:
+    line = ser.readline()
+    line = line.replace(":",",")
+    rospy.loginfo("%s", line)
+    words = string.split(line,",")    # Fields split
+
+    print words[0]
+    if len(words) > 2:
+        try:
+            roll = float(words[1]) #*grad2rad
+            pitch = float(words[3]) #*grad2rad
+            yaw = float(words[5]) #*grad2rad
+            #w = float(words[7])
+	    #russel
+
+            # Publish message
+            imuMsg.linear_acceleration.x = float(words[9]) # tripe axis accelerator meter
+            imuMsg.linear_acceleration.y = float(words[11])
+            imuMsg.linear_acceleration.z = float(words[13])
+
+
+        except Exception as e:
+            print e
+        
+        
+
+#adding transforming function
+ 
+
+        #q = tf.createQuaternionMsgFromRollPitchYaw(roll,pitch,yaw)
+	q = tf.transformations.quaternion_from_euler(roll, pitch, yaw)
+	imuMsg.orientation.x = q[0]
+        imuMsg.orientation.y = q[1]
+        imuMsg.orientation.z = q[2]
+        imuMsg.orientation.w = q[3]
+	#imuMsg.orientation = q
+        
+#Russel these lines are the values without any transformation
+        #imuMsg.orientation.x = roll 
+        #imuMsg.orientation.y = pitch 
+        #imuMsg.orientation.z = yaw 
+        #imuMsg.orientation.w = 0.0
+
+ 
+ #Russel 
+ #i changed the frame-id from base link to imu
+        imuMsg.header.frame_id = 'base_footprint' #'base_link'
+        imuMsg.header.stamp= rospy.Time.now()
+        imu_pub.publish(imuMsg)
+
+
+    print imuMsg #Gibt alle Sensorwerte in einer Art Tabelle aus
+
+ser.close

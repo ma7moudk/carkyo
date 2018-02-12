@@ -1,0 +1,99 @@
+#!/usr/bin/env python
+import rospy
+import tf
+from std_msgs.msg import String
+from geometry_msgs.msg import Twist
+from nav_msgs.msg import Odometry
+from sensor_msgs.msg import Imu
+from sensor_msgs.msg import NavSatFix
+import math
+
+yaw=0.0  #IMU
+OrgIMUangularvelZ=0.0
+IMUCount=0
+
+GPSCount=0 #gps
+
+wheelOdomCount=0  #wheelodom
+VR=0.0
+VL=0.0
+wheelAngle=0.0
+OrgRBOdomTwistX=0.0
+OrgRBOdomTwistY=0.0
+OrgOdomTwistAngZ=0.0
+
+odomGPSCount=0 #odomgps
+
+odomCount=0 #odom
+yawOdom=0.0
+
+rospy.init_node('listener', anonymous=True)   
+
+def callback_IMU(data):   
+    global yaw , OrgIMUangularvelZ , IMUCount
+    IMUCount+=1
+    (r, p, yaw) = tf.transformations.euler_from_quaternion([data.orientation.x, data.orientation.y,data.orientation.z, data.orientation.w])
+    OrgIMUangularvelZ = data.angular_velocity.z
+
+    
+def callback_GPS(data):
+    global GPSCount
+    GPSCount+=1
+
+
+def callback_Wheelodom(data):
+    global wheelOdomCount,VR,VL,wheelAngle,OrgRBOdomTwistX,OrgRBOdomTwistAngZ
+    wheelOdomCount+=1
+    VR = data.pose.pose.orientation.x
+    VL = data.pose.pose.orientation.y
+    wheelAngle = data.pose.pose.orientation.z
+    OrgRBOdomTwistX = data.twist.twist.linear.x
+    OrgRBOdomTwistY = data.twist.twist.linear.y
+
+
+def callback_odomGPS(data):
+    global odomGPSCount
+    odomGPSCount+=1
+
+def callback_odom(data):
+    global odomCount , yawOdom ,OrgOdomTwistAngZ
+    odomCount+=1
+    OrgOdomTwistAngZ = data.twist.twist.angular.z
+    OrgOdomPosX = data.pose.pose.position.x
+    OrgOdomPosY = data.pose.pose.position.y
+    OrgOdomOrienZ = data.pose.pose.orientation.z
+    OrgOdomOrienW = data.pose.pose.orientation.w
+    (rr, pp, yawOdom) = tf.transformations.euler_from_quaternion([data.pose.pose.orientation.x, data.pose.pose.orientation.y,data.pose.pose.orientation.z, data.pose.pose.orientation.w])
+
+def pub_logdate(event):
+    global yaw , OrgIMUangularvelZ , IMUCount  #IMU
+    global GPSCount                              #GPS
+    global wheelOdomCount,VR,VL,wheelAngle,OrgRBOdomTwistX,OrgOdomTwistAngZ,OrgRBOdomTwistAngZ #WheelOdom
+    global odomGPSCount             #OdomGPS
+    global odomCount , yawOdom   #Odom
+    yaw = yaw * 180.0 / math.pi
+    yaw=yaw+90.0
+    if yaw >180.0:
+        yaw-=360.0
+    wheelAngle = wheelAngle * 180.0 / math.pi
+    yawOdom = yawOdom * 180.0 / math.pi
+    print 'G%1d' %GPSCount,'I%2d' %IMUCount,'W%2d' %wheelOdomCount,'g%1d' %odomGPSCount,'O%1d' %odomCount, '* YO%+6.1f' %yawOdom,  'Y%+6.1f' %yaw, 'WD%+6.1f' %wheelAngle, 'VR%+6.3f' %VR, 'VL%+6.3f' %VL, '* VX%+6.3f' %OrgRBOdomTwistX, 'VY%+6.3f' %OrgOdomTwistAngZ, 'AO%+6.3f' %OrgOdomTwistAngZ, 'AI%+6.3f' %OrgIMUangularvelZ
+    GPSCount = 0
+    IMUCount = 0
+    wheelOdomCount = 0
+    odomGPSCount = 0
+    odomCount = 0
+
+rospy.Timer(rospy.Duration(0.1), pub_logdate)
+
+def listener():
+
+    rospy.Subscriber("/imu_enu", Imu, callback_IMU)
+    rospy.Subscriber("/fix", NavSatFix, callback_GPS)
+    rospy.Subscriber("/wheel_odometry", Odometry, callback_Wheelodom)
+    rospy.Subscriber("/odometry/gps", Odometry, callback_odomGPS)
+    rospy.Subscriber("/odom", Odometry, callback_odom)
+    rospy.spin()
+
+if __name__ == '__main__':
+    listener()

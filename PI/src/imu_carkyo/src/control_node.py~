@@ -1,0 +1,105 @@
+#!/usr/bin/env python
+import rospy
+from ackermann_msgs.msg import AckermannDriveStamped
+import serial
+
+total_ticks = 15 #Total Number of Steering Ticks
+max_angle = 0.7 #Maximum angle from 0 to right or 0 to left
+max_speed = 0.2 #Maximum Car Speed
+speed_interval = 0x5f - 0x50 #Speed Increments Range
+
+normal = 0x20
+mode = 0x10
+angle= 0x70
+acc = 0x50
+forward = 0x30
+backward = 0x40
+steering = 0x70
+
+steering_left = 0x80
+steering_right = 0x90
+steering_zero = 0x70
+steering_old = 0
+speed_old = 0
+
+wheel_angle_known = False
+
+#default_port= '/dev/ttyUSB0'  # to be changed
+#port = rospy.get_param('device', '/dev/ttyUSB0')
+#ser = serial.Serial(port=port, baudrate=9600, timeout=1)
+
+ticks = 0
+
+def callback(data):
+	global ticks, mode, steering_old, speed_old
+    #print(ticks, (speed/(max_speed/speed_interval)))
+	steering_angle = data.drive.steering_angle
+	speed = data.drive.speed
+	
+	tick = (max_angle) / total_ticks
+	speedPinterval = max_speed / speed_interval	
+
+	if (speed < 0 and speed != speed_old): #backward
+		if (mode !=	backward):	
+			#ser.write(normal)
+			mode = backward
+			print("Backwards Mode: ", mode)
+			#ser.write(mode)
+		speed_ser = hex(int(abs(speed / speedPinterval) + acc))
+		print("Backward Speed: ", speed_ser)
+		#ser.write(speed_ser)
+	elif (speed > 0 and speed != speed_old): #forward
+		if (mode !=	forward):	
+			#ser.write(normal)
+			mode = forward
+			print("Forward Mode: ", mode)
+			#ser.write(mode)
+		speed_ser = hex(int(abs(speed / speedPinterval) + acc))
+		print("Forward Speed: ", speed_ser)
+		#ser.write(speed_ser)	
+	speed_old = speed 
+	
+	if(steering_angle != steering_old):
+		if(wheel_angle_known):				
+			if (steering_angle < 0): #left steering
+				ticks = round(steering_angle / tick)
+				steer_ser =	hex(int(abs(ticks) + steering_left))
+				print("Steering Left: ", steer_ser)
+				#ser.write(steer_ser)
+			elif (steering_angle > 0): #right steering
+				ticks = round(steering_angle / tick)
+				steer_ser = hex(int(abs(ticks) + steering_right))		
+				#ser.write(steer_ser)
+				print("Steering Right: ", steer_ser)
+			else:
+				ticks = 0
+				steer_ser = hex(steering_zero)
+				print(steer_ser)
+	
+		else:
+			if(steering_angle - steering_old > 0): #steering right
+				ticks = round((steering_angle - steering_old) / tick)
+				steer_ser =	hex(int(abs(ticks) + steering_right))
+				print("#F Steering Right: ", steer_ser)
+			elif(steering_angle - steering_old < 0): #steering left
+				ticks = round((steering_angle - steering_old) / tick)
+				steer_ser =	hex(int(abs(ticks) + steering_left))
+				print("#F Steering Left: ", steer_ser)			
+			steering_old = steering_angle
+    
+def listener():
+
+    # In ROS, nodes are uniquely named. If two nodes with the same
+    # node are launched, the previous one is kicked off. The
+    # anonymous=True flag means that rospy will choose a unique
+    # name for our 'listener' node so that multiple listeners can
+    # run simultaneously.
+    rospy.init_node('carkyo_control', anonymous=True)
+    rospy.Subscriber("/rbcar_robot_control/command", AckermannDriveStamped, callback)
+
+    # spin() simply keeps python from exiting until this node is stopped
+    rospy.spin()
+
+if __name__ == '__main__':
+    listener()
+
