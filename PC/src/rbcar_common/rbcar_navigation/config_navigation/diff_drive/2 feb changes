@@ -1,0 +1,3 @@
+- new polygon for navigation stack common parameters
+- min turning radius is 6.7
+-max_global_plan_lookahead_dist: 15.0 with costmap 30 * 30 

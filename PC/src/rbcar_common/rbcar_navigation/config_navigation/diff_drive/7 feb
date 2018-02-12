@@ -1,0 +1,6 @@
+track_unknown_space: false #true  # was true 7 Feb
+
+ laser_scan_sensor: {data_type: LaserScan, topic: /lidar, marking: true, clearing: true , expected_update_rate: 2.0}  >> expected_update_rate: 2.0 {for lidar setting " lidar / planning only settings}
+
+
+

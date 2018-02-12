@@ -1,0 +1,83 @@
+TebLocalPlannerROS:
+
+ odom_topic: odom #odometryfiltered1 << extra slow   # 11jan was odom
+# map_frame: map     # 11jan was commented 
+ # Trajectory
+  
+ teb_autosize: True
+ dt_ref: 0.3   # 18 jan was 0.3
+ dt_hysteresis: 0.1
+ global_plan_overwrite_orientation: False
+ max_global_plan_lookahead_dist: 25.0 # try 10 !!  # 21 jan was 10
+ feasibility_check_no_poses: 5 # default is 4
+# inflation_dist: 2.0 # 11 jan was commented
+ # Robot        
+ max_vel_x: 10.0
+ max_vel_x_backwards: 1.0
+ max_vel_theta: 0.9 #0.11  # 11jan was 0.9
+ acc_lim_x: 0.7
+ acc_lim_theta: 0.3 #0.11 # # acc_lim_theta should be higher than  penalty_epsilon: 0.1   # 11jan was 0.3
+ min_turning_radius: 5  # diff-drive robot (can turn on place!) #trial (right is 2.1)
+ wheelbase : 1.68  # 11 jan ws commented
+ footprint_model:
+#   type: "point"
+   type: "line"
+#   radius: 0.9 # for type "circular"
+#   type: "line"
+
+   line_start: [ -0.5, 0.0] # for type "line"
+   line_end: [0.5, 0.0] # for type "line"
+
+#   vertices: [ [0.7, 0.0], [0.7, 0.4], [-0.7, 0.3], [-0.7, 0.0], [-0.7, -0.3], [0.7, -0.3], [0.7 , 0.0] ] #, [0.36, 0.36], [0.36, 0.1], [0.5, 0.1] ] # for type "polygon"
+
+ # GoalTolerance 
+ xy_goal_tolerance: 1.0
+ yaw_goal_tolerance: 1.2
+ free_goal_vel: False
+    
+ # Obstacles   
+ min_obstacle_dist: 1.25
+# This value must also include our robot radius, since footprint_model is set to "point".  
+# 0.1 value generates this warning ...<<The inscribed radius of the footprint specified for TEB optimization (0.000000) + min_obstacle_dist (0.100000) are smaller than the inscribed radius of the robot's footprint in the costmap parameters (0.242199, including 'footprint_padding'). Infeasible optimziation results might occur frequently!>>
+
+ include_costmap_obstacles: True
+ costmap_obstacles_behind_robot_dist: 20.0 #5.0 # 16 jan was 1.0
+ obstacle_poses_affected: 30
+# costmap_converter_plugin: ""
+# 16 jan commented as it is set in costmap common params
+ costmap_converter_spin_thread: True
+ costmap_converter_rate: 5
+
+ # Optimization    
+ no_inner_iterations: 5
+ no_outer_iterations: 4
+ optimization_activate: True
+ optimization_verbose: False
+ penalty_epsilon: 0.1
+ weight_max_vel_x: 2
+ weight_max_vel_theta: 1
+ weight_acc_lim_x: 1  # 18 jan was 1
+ weight_acc_lim_theta: 1 # 18 jan was 1
+ weight_kinematics_nh: 1000
+ weight_kinematics_forward_drive: 1
+ weight_kinematics_turning_radius: 1
+ weight_optimaltime: 1
+ weight_obstacle: 50
+ weight_dynamic_obstacle: 10 # not in use yet
+
+ # Homotopy Class Planner
+ enable_homotopy_class_planning: True
+ enable_multithreading: True
+ simple_exploration: False
+ max_number_classes: 4   # 18 jan was 4 #Restrict the number of alternative trajectories that are subject to optimization. Often 2 alternatives are sufficient (avoid obstacle on the left or right side). 
+ selection_cost_hysteresis: 1.0
+ selection_obst_cost_scale: 1.0
+ selection_alternative_time_cost: False
+ 
+ roadmap_graph_no_samples: 15
+ roadmap_graph_area_width: 5
+ h_signature_prescaler: 0.5
+ h_signature_threshold: 0.1
+ obstacle_keypoint_offset: 0.1
+ obstacle_heading_threshold: 0.45
+ visualize_hc_graph: False

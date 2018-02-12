@@ -1,0 +1,18 @@
+local_costmap:
+  global_frame: /odom  # 18 jan was /odom
+  robot_base_frame: base_footprint
+  update_frequency: 5.0
+  publish_frequency: 5.0
+  static_map: false
+  rolling_window: true   #Setting the "rolling_window" parameter to true means that the costmap will remain centered around the robot as the robot moves through the world
+  width: 30 #15.0
+  height: 30 # 15.0
+  resolution: 0.259 #0.1
+  transform_tolerance: 0.5
+  
+  plugins:
+   - {name: static_layer,        type: "costmap_2d::StaticLayer"}
+   - {name: obstacle_layer,      type: "costmap_2d::ObstacleLayer"}
+
+
+# edited the robot frame from base link to base footprint 15 oct

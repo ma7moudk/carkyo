@@ -1,0 +1,43 @@
+#---standard pioneer footprint---
+#---(in meters)---
+# robot_radius: 3.0  # 11 jan was 1.5 ( affects the width of black border of the map "if 5 :highly increase it )
+
+###################### Global
+
+footprint: [[0.25, 0.0], [0.177, 0.177], [0.0,0.25], [-0.177, 0.177], [-0.25, 0.0], [-0.177, -0.177], [0.0, -0.25], [0.177, -0.177] ]
+#footprint: [[0.0, 0.0], [0.0, 0.0], [0.0,0.0], [0.0, 0.0], [0.0, 0.0], [0.0, 0.0], [0.0,0.0], [0.0, 0.0] ]  
+#footprint: [[0.75, 0.0], [0.60, 0.60], [0.0,0.75], [-0.60, 0.60], [-0.75, 0.0], [-0.60, -0.60], [0.0, -0.75], [0.60, -0.60] ]
+
+transform_tolerance: 0.2
+map_type: costmap
+
+obstacle_layer:
+ enabled: true
+ map_topic:            "/map"
+ cost_scaling_factor:  0.01 
+ inflation_radius:  0.1
+ obstacle_range: 20.0 #3.0   
+ raytrace_range: 20.0 #4.0
+ track_unknown_space: true
+ combination_method: 1
+
+ observation_sources: point_cloud_sensor laser_scan_sensor laser_scan_sensor2
+ laser_scan_sensor: {data_type: LaserScan, topic: /lidar, marking: true, clearing: true}
+ laser_scan_sensor2: {data_type: LaserScan, topic: /lidar2, marking: true, clearing: true}
+ point_cloud_sensor: {data_type: PointCloud2, topic: /elp/points2, marking: true, clearing: true}
+
+inflation_layer:
+  enabled:              true
+  map_topic:            "/map"
+  cost_scaling_factor:  0.01 
+  inflation_radius:  1
+
+static_layer:
+  enabled:              true
+  map_topic:            "/map"
+  cost_scaling_factor:  0.01 
+  inflation_radius:  1.0
+
+
+# sensor_frame ,observation_persistence(0) , expected_update_rate, data_type,clearing ,marking ,max_obstacle_height ,min_obstacle_height,obstacle_range,raytrace_range,inf_is_valid (false)
+
