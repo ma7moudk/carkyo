@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<launch>
+  <node name="jointsta_publisher" pkg="nmea_navsat_driver" type="joint_state_publish.py" respawn="true" output="screen"/>
+<!--  <node name="enu_publisher" pkg="nmea_navsat_driver" type="enu_publisher.py" respawn="true" output="screen"/> -->
+  <node name="wheel_publisher" pkg="nmea_navsat_driver" type="wheel_publisher.py" respawn="true" output="screen"/> 
+  <node name="imu_fix" pkg="nmea_navsat_driver" type="fix_imu.py" respawn="true" output="screen"/> 
+  <node name="monitor" pkg="nmea_navsat_driver" type="node_monitor.py" respawn="true" output="screen"/>
+  <node name="lidar_node" pkg="nmea_navsat_driver" type="lidar_publisher.py" respawn="true" output="screen"/>
+  <!--node name="lidar2" pkg="nmea_navsat_driver" type="getLidar.py" respawn="true" output="screen"/>--> 
+<!--
+  <node name="gps_publisher" pkg="nmea_navsat_driver" type="gps_publisher.py" respawn="true" output="screen"/> -->
+
+  
+
+</launch>
