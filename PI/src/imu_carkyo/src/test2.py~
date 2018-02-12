@@ -1,0 +1,72 @@
+#!/usr/bin/env python
+
+import roslib  
+import rospy
+
+import serial
+import string
+import math
+
+import re
+from time import time, sleep
+from ackermann_msgs.msg import AckermannDriveStamped
+
+import tf
+steering_angle=0
+speed=0
+mode='0x10'
+angle='0x70'
+acc='0x50'
+enter='0x13'
+flag= 'false'
+
+def callback(data):
+    global steering_angle
+    global speed
+    global mode
+    global angle
+    global acc
+    global enter
+    global flag
+    
+    #default_port= '/dev/ttyACM0'  # to be changed
+    port = rospy.get_param('device', '/dev/ttyACM0')
+    ser = serial.Serial(port=port, baudrate=9600, timeout=1)
+    #rospy.loginfo(ser)
+    rospy.sleep(5) # Sleep for 8 seconds to wait for the board to boot then only write command.
+    ser.write(mode)
+    while 1:
+        steering_angle=data.drive.steering_angle
+        speed=data.drive.speed
+
+        #ser.write('0x53')
+        #ser.write(mode)
+        #ser.write(angle)
+        #ser.write('0x45')
+
+        #ser.close()
+
+
+    
+def listener():
+    rospy.loginfo(10)
+    rospy.init_node('ser_pub', anonymous=True)
+    rospy.Subscriber("/rbcar_robot_control/command", AckermannDriveStamped, callback)
+    # spin() simply keeps python from exiting until this node is stopped
+    rospy.spin()
+
+
+def translate(value, leftMin, leftMax, rightMin, rightMax):
+    # Figure out how 'wide' each range is
+    leftSpan = leftMax - leftMin
+    rightSpan = rightMax - rightMin
+
+    # Convert the left range into a 0-1 range (float)
+    valueScaled = float(value - leftMin) / float(leftSpan)
+
+    # Convert the 0-1 range into a value in the right range.
+    return rightMin + (valueScaled * rightSpan)
+
+if __name__ == '__main__':
+    listener()
+

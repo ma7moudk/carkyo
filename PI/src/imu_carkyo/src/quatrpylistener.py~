@@ -1,0 +1,55 @@
+#!/usr/bin/env python
+import rospy
+import tf
+import math
+from std_msgs.msg import String
+from ackermann_msgs.msg import AckermannDriveStamped
+from geometry_msgs.msg import Twist
+from nav_msgs.msg import Odometry
+from sensor_msgs.msg import Imu
+from sensor_msgs.msg import NavSatFix
+    
+def callback_IMU(data):
+	quaternion1 = (data.orientation.x,data.orientation.y,data.orientation.z,data.orientation.w)
+        euler = tf.transformations.euler_from_quaternion(quaternion1)
+	roll = euler[0]
+	pitch = euler[1]
+	yaw = euler[2]
+        current_time= rospy.Time.now()
+        x=current_time.to_sec()
+        rospy.loginfo("IMUfrom quat :Or:%+2.4f,%+2.4f,%+2.4f,%+2.4f ,RPY:%+2.4f,%+2.4f,%+2.4f ,timenow %+2.4f", data.orientation.x,  data.orientation.y, data.orientation.z, data.orientation.w, roll*180.0/math.pi , pitch*180.0/math.pi , yaw*180.0/math.pi,x )
+ 
+def callback2_IMU(data):
+	quaternion = tf.transformations.quaternion_from_euler(data.angular_velocity.z, data.angular_velocity.y, data.angular_velocity.x)
+        rospy.loginfo("IMUfrom roll :Or:%+2.4f,%+2.4f,%+2.4f,%+2.4f ,RPY:%+2.4f,%+2.4f,%+2.4f", quaternion[0],  quaternion[1], quaternion[2], quaternion[3], data.angular_velocity.z , data.angular_velocity.y , data.angular_velocity.x )
+  
+def callback_odom(data):
+	quaternion = (data.pose.pose.orientation.x,data.pose.pose.orientation.y,data.pose.pose.orientation.z,data.pose.pose.orientation.w)
+        euler = tf.transformations.euler_from_quaternion(quaternion)
+	roll = euler[0]
+	pitch = euler[1]
+	yaw = euler[2]
+        current_timeodom= rospy.Time.now()
+        xodom=current_timeodom.to_sec()
+        rospy.loginfo("odom: orntX=%+2.2f  orntY=%+2.2f orntZ=%+2.2f orntW=%+2.2f , RPY:%+2.4f,%+2.4f,%+2.4f ,timenow %+2.4f", data.pose.pose.orientation.x, data.pose.pose.orientation.y, data.pose.pose.orientation.z, data.pose.pose.orientation.w, roll*180.0/math.pi, pitch*180.0/math.pi, yaw*180.0/math.pi,xodom)
+   
+def callback_odomfiltered(data):
+	quaternion = (data.pose.pose.orientation.x,data.pose.pose.orientation.y,data.pose.pose.orientation.z,data.pose.pose.orientation.w)
+        euler = tf.transformations.euler_from_quaternion(quaternion)
+	roll = euler[0]
+	pitch = euler[1]
+	yaw = euler[2]
+        current_timeodomf= rospy.Time.now()
+        xodomf=current_timeodomf.to_sec()
+        rospy.loginfo("odom: orntX=%+2.2f  orntY=%+2.2f orntZ=%+2.2f orntW=%+2.2f , RPY:%+2.4f,%+2.4f,%+2.4f,timenow %+2.4f", data.pose.pose.orientation.x, data.pose.pose.orientation.y, data.pose.pose.orientation.z, data.pose.pose.orientation.w, roll*180.0/math.pi, pitch*180.0/math.pi, yaw*180.0/math.pi,xodomf)
+     
+   
+def listener():
+    rospy.init_node('listener', anonymous=True)
+    rospy.Subscriber("/odom", Odometry, callback_odom)
+    rospy.Subscriber("/imu1/data", Imu, callback_IMU)
+    rospy.Subscriber("/odometry/filtered1", Odometry, callback_odomfiltered)
+    rospy.spin()
+
+if __name__ == '__main__':
+    listener()
